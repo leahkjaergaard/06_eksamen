@@ -1,0 +1,194 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* GENERELT */
+
+body {
+  background-color: #efeae2;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  background-color: #efeae2;
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #efeae2;
+  color: black;
+}
+
+/* TEKST */
+
+h1 {
+  font-family: "Karla", sans-serif;
+  color: #0c51dd;
+  font-size: 12rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Karla", sans-serif;
+  color: #0c51dd;
+  font-size: 2rem;
+  justify-content: space-between;
+}
+h3 {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  justify-content: space-between;
+}
+
+p {
+  max-width: 70ch;
+  font-family: "Inria Sans", sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+a {
+  font-family: "Inria Sans", sans-serif;
+  color: black;
+  font-size: 1.8rem;
+}
+
+/*MOBIL*/
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-family: "Karla", sans-serif;
+    color: #0c51dd;
+    font-size: 12rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Karla", sans-serif;
+    color: #0c51dd;
+    font-size: 2rem;
+    justify-content: space-between;
+  }
+  h3 {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    justify-content: space-between;
+  }
+
+  p {
+    max-width: 70ch;
+    font-family: "Inria Sans", sans-serif;
+    color: black;
+    font-size: 1.2rem;
+    line-height: 3rem;
+  }
+
+  a {
+    font-family: "Inria Sans", sans-serif;
+    color: black;
+    font-size: 1.8rem;
+  }
+
+  a:hover {
+    color: #275fa1;
+  }
+}
+
+/* FORSIDE */
+
+.forside_overskrift {
+  text-align: center;
+}
+
+.waves {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  aspect-ratio: 1767/262;
+}
+
+.waves img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* OM MIG */
+
+.om_mig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* TEMAER */
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 4rem;
+  padding: 0;
+}
+
+ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+a {
+  font-family: "Inria Sans", sans-serif;
+  color: #0c51dd;
+  font-size: 1.8rem;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+a li {
+  font-family: "Inria Sans", sans-serif;
+  color: #0c51dd;
+  font-size: 4rem;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+a:hover {
+  color: #f27405;
+}
+
+/* TEMA 2 */
+
+/* TEMA 3 */
+
+/* TEMA 4 */
+.animation {
+  display: flex;
+  width: 100%;
+}
+
+/* TEMA 5 */
+
+.dokumentation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  gap: 20px;
+}
