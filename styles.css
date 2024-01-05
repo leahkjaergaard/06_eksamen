@@ -122,17 +122,24 @@ a {
   }
 
   .forside_billede {
-    width: 100%;
-    height: 100%;
-    display: block;
+    width: 30%;
+    margin: auto;
   }
 
   /* OM MIG */
 
   .om_mig {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .om_mig_tekst {
+    width: 100%;
   }
 
+  .kontaktinfo {
+    width: 50%;
+    margin: auto;
+  }
   /* TEMAER */
 
   #tema_links a {
@@ -173,13 +180,14 @@ a {
     color: #f27405;
   }
 
-  /* TEMA 2 */
-  .citat {
-    font-style: italic;
+  .web {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
   }
+
   .top {
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
 
   .top img {
@@ -191,6 +199,7 @@ a {
     text-align: center;
     text-decoration: underline;
     margin-bottom: 2%;
+    line-height: 2rem;
   }
 
   .ux_ui {
@@ -198,8 +207,16 @@ a {
     grid-template-columns: 2fr 1fr;
   }
 
+  .ux_ui h3 {
+    margin-bottom: 10px;
+  }
+
+  .ux_ui p {
+    margin-bottom: 40px;
+  }
+
   /* TEMA 4 */
-  .animation {
+  .flex_billeder {
     display: flex;
     width: 100%;
   }
@@ -207,15 +224,24 @@ a {
   /* TEMA 5 */
   .dokumentation {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
     gap: 20px;
     margin-bottom: 40px;
+    margin-top: 40px;
   }
 
   .indhold {
     display: grid;
     grid-template-columns: 2fr 1fr;
+  }
+
+  .indhold h3 {
+    margin-bottom: 10px;
+  }
+
+  .indhold p {
+    margin-bottom: 40px;
   }
 
   .indhold_2 {

@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
 
-    <link rel="icon" href="logo/logo.webp" type="image/x-icon">
-    <link rel="shortcut icon" href="logo/logo.webp" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -19,6 +19,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inria+Sans:wght@300&family=Karla:wght@200&family=Montserrat&family=Satisfy&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="carussel.css">
+    <link rel="favicon" href="favicon.ico">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="menu.css">
 
@@ -34,6 +37,7 @@
         </div>
         <nav>
             <ul class="menu">
+                <li><a href="index.html">FORSIDE</a></li>
                 <li><a href="ommig.html">OM MIG</a></li>
                 <li><a href="temaer.html">TEMAER</a></li>
             </ul>
@@ -53,10 +57,11 @@
             <a href="https://espi0001.github.io/virkelig_website/">Virksomhedssite</a>
         </div>
 
+
         <h3>Viden</h3>
         <div class="indhold">
             <div class="indhold_tekst">
-                <p>I temaet grundlæggende indhold, blev vi introduceret til Adobe Premiere Pro. I første omgang skulle
+                <p>I temaet Grundlæggende Indhold, blev vi introduceret til Adobe Premiere Pro. I første omgang skulle
                     vi optage og klippe
                     en video af en person med en passion.
                     I dette tema skulle vi derudover lave et redesign af en hjemmeside for en selvvalgt virksomhed.
@@ -102,7 +107,69 @@
             </div>
 
             <div class="videosite">
-                <img src="img/passion.png" alt="stil">
+                <div class="col">
+                    <div class="wrapper">
+                        <div class="carousel">
+                            <ul class="slides">
+                                <li>
+                                    <input type="radio" name="radio-buttons" id="img-1" checked />
+                                    <div class="slide-container">
+                                        <div class="slide-image">
+                                            <img src="img/karussel1.png" alt="karussel">
+                                        </div>
+                                        <div class="carousel-controls">
+                                            <label for="img-3" class="prev-slide">
+                                                <span>&lsaquo;</span>
+                                            </label>
+                                            <label for="img-2" class="next-slide">
+                                                <span>&rsaquo;</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <input type="radio" name="radio-buttons" id="img-2" />
+                                    <div class="slide-container">
+                                        <div class="slide-image">
+                                            <img src="img/karussel2.png" alt="2">
+                                        </div>
+                                        <div class="carousel-controls">
+                                            <label for="img-1" class="prev-slide">
+                                                <span>&lsaquo;</span>
+                                            </label>
+                                            <label for="img-3" class="next-slide">
+                                                <span>&rsaquo;</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <input type="radio" name="radio-buttons" id="img-3" />
+                                    <div class="slide-container">
+                                        <div class="slide-image">
+                                            <img src="img/karussel3.png" alt="3">
+                                        </div>
+                                        <div class="carousel-controls">
+                                            <label for="img-2" class="prev-slide">
+                                                <span>&lsaquo;</span>
+                                            </label>
+                                            <label for="img-1" class="next-slide">
+                                                <span>&rsaquo;</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="carousel-dots">
+                                    <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                                    <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                                    <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -123,11 +190,17 @@
         </div>
 
         <div class="dokumentation">
-            <img src="img/forside_indhold.png" alt="forside">
-            <img src="img/omos_indhold.png" alt="Om os">
-            <img src="img/teknik_indhold.png" alt="teknik">
+            <img src="img/indhold1.png" alt="forside">
+            <img src="img/indhold2.png" alt="indhold2">
+            <img src="img/indhold3.png" alt="Om os">
+            <img src="img/indhold4.png" alt="indhold4">
         </div>
 
+        <div class="top">
+            <a href="#top">
+                <img src="img/pil.svg" alt="pil op">
+            </a>
+        </div>
     </main>
 
     <script src="menu.js"></script>
