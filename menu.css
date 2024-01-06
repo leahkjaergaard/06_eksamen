@@ -90,6 +90,7 @@ nav {
     width: 100%;
     box-shadow: 0 0 10px #0c51dd;
     z-index: 1;
+    background-color: #e8dccc;
   }
 
   nav.active .menu li {

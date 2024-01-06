@@ -137,7 +137,7 @@ a {
   }
 
   .kontaktinfo {
-    width: 50%;
+    width: 40%;
     margin: auto;
   }
   /* TEMAER */
@@ -161,15 +161,15 @@ a {
 
   a {
     font-family: "Inria Sans", sans-serif;
-    color: #0c51dd;
     font-size: 1.2rem;
     text-decoration: none;
     display: block;
+    color: #f27405;
   }
 
   a li {
     font-family: "Inria Sans", sans-serif;
-    color: #0c51dd;
+    color: #f27405;
     font-size: 4rem;
     text-decoration: none;
     display: block;
@@ -177,8 +177,10 @@ a {
   }
 
   a:hover {
-    color: #f27405;
+    color: #0c51dd;
   }
+
+  /*TEMA 2*/
 
   .web {
     display: grid;
@@ -194,12 +196,32 @@ a {
     width: 30px;
   }
 
+  .back_knap {
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 1px solid #f27405;
+    background-color: #efeae2;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    padding: 12px 20px;
+  }
+
+  .back_knap:hover a {
+    color: #efeae2;
+  }
+
+  .back_knap:hover {
+    background-color: #f27405;
+    color: #f27405;
+  }
+
   /* TEMA 3 */
   .Links {
     text-align: center;
     text-decoration: underline;
     margin-bottom: 2%;
     line-height: 2rem;
+    text-decoration-color: #f27405;
   }
 
   .ux_ui {
