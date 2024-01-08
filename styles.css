@@ -162,6 +162,7 @@ a {
 
   a:hover {
     color: #0c51dd;
+    text-decoration-color: #0c51dd;
   }
 
   .top {
@@ -234,6 +235,7 @@ a {
 
   a:hover {
     color: #0c51dd;
+    text-decoration-color: #0c51dd;
   }
 
   /*TEMA 2*/
