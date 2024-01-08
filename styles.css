@@ -72,48 +72,104 @@ a {
   font-size: 1.8rem;
 }
 
-/*MOBIL*/
+/*MOBIL VERSION*/
+
+/*forside*/
 @media screen and (max-width: 800px) {
-  h1 {
+  .forside_overskrift h1 {
     font-family: "Karla", sans-serif;
     color: #0c51dd;
-    font-size: 12rem;
+    font-size: 3rem;
     text-align: center;
   }
 
-  h2 {
+  .forside_overskrift h2 {
     font-family: "Karla", sans-serif;
     color: #0c51dd;
-    font-size: 2rem;
+    font-size: 1rem;
     justify-content: space-between;
     margin-bottom: 20px;
   }
+
+  main {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  /*om mig*/
+  .kontaktinfo {
+    margin: 2px;
+  }
+
+  /*tema 2*/
+  .Links a {
+    text-decoration: underline;
+    font-size: 1.2rem;
+  }
+
+  /*knap*/
+  .back_knap {
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 1px solid #f27405;
+    background-color: #efeae2;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    padding: 5px 12px;
+  }
+
+  .back_knap a {
+    font-size: 1rem;
+  }
+
+  .back_knap:hover a {
+    color: #efeae2;
+  }
+
+  .back_knap:hover {
+    background-color: #f27405;
+    color: #f27405;
+  }
+
   h3 {
     font-family: "Inria Sans", sans-serif;
     font-weight: bolder;
     font-size: 1.2rem;
     justify-content: space-between;
     gap: 20px;
+    margin-bottom: 2px;
   }
 
   p {
     max-width: 70ch;
     font-family: "Inria Sans", sans-serif;
     color: black;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 2rem;
+    margin-bottom: 10px;
   }
 
   a {
     font-family: "Inria Sans", sans-serif;
-    color: black;
-    font-size: 1.8rem;
+    color: #f27405;
+    font-size: 4rem;
+    text-decoration-color: #f27405;
+    margin-bottom: 2px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
   }
 
   a:hover {
-    color: #275fa1;
+    color: #0c51dd;
+  }
+
+  .top {
+    width: 10%;
   }
 }
+
+/*Desktop*/
 
 /* FORSIDE */
 @media screen and (min-width: 800px) {
