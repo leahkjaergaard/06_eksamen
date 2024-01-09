@@ -25,6 +25,7 @@ header {
 }
 
 main {
+  background-color: #efeae2;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -114,7 +115,12 @@ a {
     }
   }
 
+  body {
+    background-color: #efeae2;
+  }
+
   main {
+    background-color: #efeae2;
     margin-left: 5px;
     margin-right: 5px;
   }
