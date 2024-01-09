@@ -119,6 +119,10 @@ a {
     margin-right: 5px;
   }
 
+  body {
+    background-color: #f2f0eb;
+  }
+
   /*om mig*/
   .kontaktinfo {
     margin: 2px;
